@@ -1,4 +1,4 @@
-#  Conversion of spreadsheet of abstracts to abstracts booklet [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/philip-mach/conference-abstract-booklet/master?filepath=./Conference-Abstract-Booklet.ipynb)
+#  Conversion of spreadsheet of abstracts to abstracts booklet [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/philip-mach/herd-immunity/master?filepath=./Conference-Abstract-Booklet.ipynb)
 
 ## Philip Machanick
 ### 18 June 2020
