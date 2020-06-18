@@ -1,0 +1,7 @@
+name: absrtactbooklet
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - xlrd

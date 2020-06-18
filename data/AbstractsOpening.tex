@@ -1,0 +1,60 @@
+\documentclass[12pt,oneside]{book}
+
+\usepackage[a4paper,margin=3cm,innermargin=3cm]{geometry}
+
+\usepackage{times}[12pt]
+\usepackage{needspace}
+\usepackage{marginnote}
+\renewcommand*{\marginfont}{\sffamily\footnotesize}
+
+\usepackage{imakeidx}
+\usepackage[hidelinks]{hyperref}
+\makeindex[intoc]
+
+\newenvironment{conf-abstract}[4][]{
+  \needspace{10\baselineskip}
+  \begin{center}
+    { \renewcommand\textsuperscript[1]{}
+      \phantomsection\addcontentsline{toc}{section}
+      {\texorpdfstring{#2 (\emph{#3})}{#2 (#3)}}
+    }
+    {{\large\bfseries #2}\marginnote{#1}\par}
+    \medskip
+    {#3\par}
+    \smallskip
+    {\small #4\par}
+  \end{center}
+}{%
+  \bigskip
+  \hrule
+  \bigskip
+}
+
+\usepackage{etoolbox}
+\newcommand{\indexauthors}[1]{%
+  \forcsvlist{\index}{#1}
+}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{-1}
+\pagestyle{plain}
+
+
+
+\title{##CONFERENCENAME##\\Abstracts}
+\author{##AUTHORNAME##}
+\date{##DATE##}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+%\chapter{Welcome Address}
+%Yo, welcome! Have a good time you guys!
+
+\tableofcontents
+
+\mainmatter
+%\chapter{Abstracts}
