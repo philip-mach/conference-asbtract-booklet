@@ -8,7 +8,7 @@ Free to use under terms of the MIT license: https://opensource.org/licenses/MIT 
 You can run by clicking **launch binder** on GitHub, otherwise install as described here.
 
 ## To install
-Either download the project using (on a typical Unix command line, tested on Mac OS 10.13.6):
+If not using the binder, download the project using (typical Unix command line, tested on Mac OS 10.13.6):
 
 `git clone https://github.com/philip-mach/conference-asbtract-booklet
 cd conference-asbtract-booklet`
